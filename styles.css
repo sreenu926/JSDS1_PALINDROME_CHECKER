@@ -28,7 +28,7 @@ h3 {
   background-color: white; /* Card background */
   color: black;
   box-shadow: 0 5px 0 blue;
-  width: 400px;
+  max-width: 400px;
 }
 
 input[type="text"] {
@@ -36,7 +36,7 @@ input[type="text"] {
   border-bottom: 2px solid black;
   outline: none;
   font-size: 1em;
-  width: 70%;
+  max-width: 400px;
   text-align: center;
 }
 
@@ -66,10 +66,11 @@ button:hover {
   border-radius: 8px;
   font-size: 1.1em;
   color: white;
-  width: 400px;
+  max-width: 400px;
 }
 
 .info::before {
   content: "💡";
   margin-right: 8px;
+  max-width: 400px;
 }
