@@ -28,6 +28,7 @@ h3 {
   background-color: white; /* Card background */
   color: black;
   box-shadow: 0 5px 0 blue;
+  width: 400px;
 }
 
 input[type="text"] {
@@ -65,6 +66,7 @@ button:hover {
   border-radius: 8px;
   font-size: 1.1em;
   color: white;
+  width: 400px;
 }
 
 .info::before {
