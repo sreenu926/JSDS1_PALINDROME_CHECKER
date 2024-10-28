@@ -1,0 +1,73 @@
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
+body {
+  font-family: "arial";
+  background-color: #a97403; /* Dark background */
+  font-size: 20px;
+  text-align: center;
+}
+h1 {
+  font-family: arial;
+  color: white;
+  margin-bottom: 20px;
+}
+h3 {
+  font-family: courier;
+  color: white;
+  margin-bottom: 20px;
+}
+#checking-box {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white; /* Card background */
+  color: black;
+  box-shadow: 0 5px 0 blue;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  font-size: 1em;
+  width: 70%;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #6e40c9; /* Purple button */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #fd51d9;
+}
+
+.result {
+  font-size: 1.5em;
+  color: black;
+  background-color: white;
+}
+
+.info {
+  margin-top: 30px;
+  background-color: #27557a;
+  border-radius: 8px;
+  font-size: 1.1em;
+  color: white;
+}
+
+.info::before {
+  content: "💡";
+  margin-right: 8px;
+}
